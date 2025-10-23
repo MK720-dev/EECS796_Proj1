@@ -6,5 +6,6 @@ All results from the last run are stored in the results folder. Inside it, you'l
   - All the training loss convergence plots for each optimizer, dataset and network architecture
   - custom_bar_plots/ and tf_bar_plots/ directories containing the per optimizer validation loss and task-specific metric bar plots used in the research paper
   
-To test the code all you need to do is run the optimizer_comparison.py script.
+To test the code all you need to do is run the optimizer_comparison.py script. 
+Important: To run the code properly, refer to the requirements.txt file for the project dependencies.
 
