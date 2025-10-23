@@ -19,7 +19,6 @@ __pycache__/
 *.pkl
 *.log
 *.dat
-*.csv
 *.pck
 *.h5
 *.hdf5
