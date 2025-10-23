@@ -228,7 +228,7 @@ def run_tensorflow_experiment_cv(X, y, dataset_name, arch, optimizer_name,
             verbose=0
         )
 
-        # Last 10 epochs average for smoothness
+        # Final training and validation loss
         fold_train_loss = history.history["loss"][-1]
         fold_val_loss = history.history["val_loss"][-1]
 
