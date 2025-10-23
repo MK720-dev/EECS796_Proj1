@@ -1,0 +1,85 @@
+# -----------------------------
+# Environment and dependency folders
+# -----------------------------
+env/
+venv/
+.env/
+.venv/
+ENV/
+ENV*/
+*.env
+
+# -----------------------------
+# Python cache and build files
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.dat
+*.csv
+*.pck
+*.h5
+*.hdf5
+*.joblib
+*.sqlite
+*.db
+
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -----------------------------
+# Node.js dependencies and build
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+build/
+
+# -----------------------------
+# Visual Studio & IDE artifacts
+# -----------------------------
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.pdb
+*.db
+*.opendb
+*.VC.db
+*.aps
+*.ncb
+*.obj
+*.idb
+*.ipch
+*.ilk
+*.tlog
+*.sdf
+*.cachefile
+*.vsidx
+
+# -----------------------------
+# OS-generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Miscellaneous project outputs
+# -----------------------------
+logs/
+*.tmp
+*.bak
+*.swp
+*.zip
+*.7z
+*.tar
+*.gz
+*.egg-info/
